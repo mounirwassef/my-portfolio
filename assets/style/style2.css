@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #013260;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(103, 105, 188);
+    width: 220px;
+    font-size: 40px;
+    padding-left: 66px;
+}
+
+a {
+    color: rgb(5, 0, 14);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav ul div {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 5px solid rgb(103, 105, 188);
+    padding: 4px;
+
+    margin-right: 20px;
+}
+
+#figure {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 279px;
+    width: 100%;
+}
+
+
+section {
+    display: flex;
+    margin-top: 10px;
+}
+
+section header {
+    flex-basis: 18%;
+    border-right: solid rgb(103, 105, 188) 4px;
+    margin-right: 28px;
+    text-align: right;
+    padding: 17px;
+
+}
+
+section div {
+    flex-basis: 82%;
+    padding: 25px;
+}
+
+.main2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.main2 a {
+    flex-basis: 50%;
+    height: 150px;
+}
+
+.main2 a:first-child {
+    flex-basis: 100%;
+    height: 200px;
+}
+
+section ul div {
+    display: flex;
+    flex-basis: 72%;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 5px solid #305fac;
+    float:left;
+    padding: 5px 32px;
+    margin: 2px;
+}
